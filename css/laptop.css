@@ -72,4 +72,14 @@
         max-width: 415px;
         width: 100%;
     }
+
+    /* section3 */
+
+    .section3 {
+        padding: 39px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
 }
