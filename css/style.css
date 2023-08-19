@@ -4,20 +4,23 @@
     max-width: 1440px;
 }
 
+/* header */
 .main_header {
     width: 90%;
     margin: auto;
     height: 96px;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-bottom: 64px;
 }
 
 .main_logo {
     width: 87px;
     height: 27px;
 }
-.header_ul{
+
+.header_ul {
     display: flex;
     gap: 30px;
 }
@@ -46,6 +49,70 @@ span {
     color: white;
 }
 
-.burger_menu{
+.burger_menu {
     display: none;
 }
+
+/* header */
+/* section1 */
+
+.section1 {
+    max-width: 1440px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.section1_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    align-self: stretch;
+}
+
+.cards {
+    max-width: 490px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.section_cards_head {
+    color: #000;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+}
+
+.section1_text {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px;
+
+}
+
+
+.section1_subtext {
+    display: none;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 16px;
+}
+.section_img {
+    width: 100%;
+}
+

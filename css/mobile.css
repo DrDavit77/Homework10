@@ -1,11 +1,34 @@
 @media (max-width: 600px) {
-    .main_nav{
+    .main_header {
+        margin-bottom: 0;
+    }
+
+    .main_nav {
         display: none;
     }
-    .action_button{
+
+    .header_button {
         display: none;
     }
-    .burger_menu{
+
+    .burger_menu {
         display: block;
+    }
+
+    .section1_cards {
+        height: 623px;
+        gap: 24px;
+    }
+
+
+    .section1_subtext {
+        display: none;
+    }
+}
+
+@media (max-width: 440px) {
+    .cards {
+        height: 200px;
+        text-align: center;
     }
 }
