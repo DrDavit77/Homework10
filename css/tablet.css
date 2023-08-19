@@ -80,4 +80,16 @@
    margin: auto;
    justify-content: center;
 }
+
+.footer_logo{
+    margin-bottom: 20px;
+}
+.footer_column {
+    width: 155px;
+    
+    
+
+}
+
+
 }

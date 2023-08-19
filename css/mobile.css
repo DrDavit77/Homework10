@@ -35,6 +35,14 @@
     .section1_subtext {
         display: none;
     }
-}
 
-/* section2 */
+    /* section3 */
+    footer {
+        padding: 50px 30px;
+    }
+
+
+    .footer_column {
+        width: 97px;
+    }
+}

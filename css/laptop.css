@@ -82,4 +82,20 @@
         justify-content: space-between;
         gap: 30px;
     }
+
+    /* footer */
+    footer{
+        padding: 45px 32px;
+    }
+    .footer_main {
+        display: block;
+    }
+
+    .footer_logo{
+        margin-bottom: 48px;
+    }
+
+    .blackk{
+        display: none;
+    }
 }
