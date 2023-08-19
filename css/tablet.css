@@ -38,4 +38,28 @@
         display: block;
 
     }
+
+    /* section2 */
+
+    .section2_title {
+        flex-wrap: wrap;
+        gap: 19px;
+    }
+
+    
+    .section2_head {
+        max-width: 696px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section2_text {
+        max-width: 696px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section2_texthead{
+        padding: 10px 0;
+    }
 }
